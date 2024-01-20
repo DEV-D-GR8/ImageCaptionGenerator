@@ -15,8 +15,11 @@ def main():
         model = local.get('model')
         cap = local.get('cap')
         if st.button("Generate Caption"):
-            caption = model.generate_content([cap ,image])
-            st.success(f"Generated Caption: {caption.text}")
+            try:
+                caption = model.generate_content([cap ,image])
+                st.success(f"Generated Caption: {caption.text}")
+            except Exception as e:
+                st.write("The app is not functioning properly right now. Please try again later.")
             
 
 if __name__ == "__main__":
