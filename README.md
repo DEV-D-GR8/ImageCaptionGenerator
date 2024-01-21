@@ -1,6 +1,6 @@
-# Image Captioning App
+# Image Caption Generator
 
-This project utilizes a combination of ResNet50 and LSTM models to generate captions for uploaded images. The trained model is deployed using Streamlit, allowing users to easily upload pictures and receive descriptive captions.
+This project utilizes a combination of ResNet50 and LSTM models to generate captions/description for uploaded images. The trained model is deployed using Streamlit, allowing users to easily upload pictures and receive descriptive captions.
 
 ## Overview
 
