@@ -3,4 +3,3 @@ numpy
 streamlit
 pillow
 nltk
-google-generativeai
