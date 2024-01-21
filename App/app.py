@@ -4,7 +4,8 @@ from utils import generate_caption
 
 def main():
     st.title("Image Captioning App")
-
+    linkedin_profile_url = 'https://www.linkedin.com/in/devasheeshchopra?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+    st.write("Developed by: [Dev Asheesh Chopra](" + linkedin_profile_url + ")")
     uploaded_image = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
     local = {}
     if uploaded_image is not None:
