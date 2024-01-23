@@ -17,6 +17,10 @@ This project utilizes a combination of ResNet50 and LSTM models to generate capt
 - **NLTK:** Natural Language Toolkit is used for processing and handling text data.
 - **Streamlit:** Utilized for deploying the interactive web application.
 
+## YouTube Demo
+
+Watch the project in action on [YouTube](https://youtu.be/qlwthNhX96E?si=8IKitQ9g3vpV8ll5).
+
 ## Deployed Project
 
 The Image Captioning App is deployed and accessible [here](https://capgen.streamlit.app).
